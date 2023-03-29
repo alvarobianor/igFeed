@@ -1,4 +1,13 @@
+type Props = {
+  author?: string;
+  content?: string;
 
-export function Post() {
-  return <h1>Post</h1>
+}
+export function Post({ author, content }: Props) {
+  return (
+    <>
+      <strong>{author}</strong>
+      <p>{content}</p>
+    </>
+  )
 }
