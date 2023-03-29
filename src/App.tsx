@@ -1,10 +1,8 @@
+import { Post } from "./components/Post"
 
-function App() {
+export function App() {
 
   return (
-    <h1>Hello Alvim lindo
-    </h1>
+    <Post />
   )
 }
-
-export default App
